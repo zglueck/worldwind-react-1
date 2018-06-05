@@ -4,6 +4,7 @@ import Globe from 'worldwind-react-globe';
 
 import LayerList from './LayerList';
 import './Layers.css';
+import WebMapList from './webmaps/WebMapList';
 
 export default class Layers extends Component {
 
@@ -29,6 +30,8 @@ export default class Layers extends Component {
                     <LayerList layers={this.props.overlayLayers.layers} globe={this.props.globe}/>
                     <hr/>
                     <LayerList layers={this.props.baseLayers.layers} globe={this.props.globe}/>
+                    <hr/>
+                    <WebMapList layers={this.props.overlayLayers.layers} globe={this.props.globe}/>
                 </div>
             </div>
         );

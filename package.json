@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://emxsys.github.io/worldwind-react-app",
   "dependencies": {
+    "@zglueck/worldwind-map-service": "github:zglueck/worldwind-map-service",
     "ajv": "^6.5.0",
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
